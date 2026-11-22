@@ -1,0 +1,333 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 364" width="920" height="364" role="img" aria-label="Hippolyte / DEADCOW.GHW — Arcade Cyber Command Center">
+  <defs>
+    <linearGradient id="bg-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#050711"/>
+      <stop offset="52%" stop-color="#0b1024"/>
+      <stop offset="100%" stop-color="#150d2b"/>
+    </linearGradient>
+    <linearGradient id="neon-strip" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00f5ff"/>
+      <stop offset="33%" stop-color="#a855f7"/>
+      <stop offset="66%" stop-color="#ff2a85"/>
+      <stop offset="100%" stop-color="#ffe600"/>
+    </linearGradient>
+    <linearGradient id="title-grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00f5ff"/>
+      <stop offset="60%" stop-color="#7dd3fc"/>
+      <stop offset="100%" stop-color="#39ff14"/>
+    </linearGradient>
+    <linearGradient id="panel-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1226" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#080b18" stop-opacity="0.97"/>
+    </linearGradient>
+    <linearGradient id="radar-sweep" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00f5ff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00f5ff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#00f5ff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow-cyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glow-pink" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glow-gold" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="crt-scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#000000" fill-opacity="0"/>
+      <rect y="2" width="4" height="2" fill="#000000" fill-opacity="0.22"/>
+    </pattern>
+    <pattern id="cyber-grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#1b234a" stroke-width="1" stroke-opacity="0.5"/>
+    </pattern>
+    <clipPath id="maze-clip">
+      <rect x="24" y="286" width="872" height="54"/>
+    </clipPath>
+    <clipPath id="avatar-clip">
+      <rect x="644" y="92" width="248" height="156"/>
+    </clipPath>
+  </defs>
+
+  <!-- Cabinet Background & Cyber Grid -->
+  <rect width="920" height="364" rx="10" fill="url(#bg-grad)"/>
+  <rect width="920" height="364" rx="10" fill="url(#cyber-grid)"/>
+
+  <!-- Subtle Synthwave Horizon Perspective Lines -->
+  <g stroke="#a855f7" stroke-opacity="0.16" stroke-width="1">
+    <line x1="0" y1="264" x2="920" y2="264"/>
+    <line x1="460" y1="264" x2="120" y2="364"/>
+    <line x1="460" y1="264" x2="290" y2="364"/>
+    <line x1="460" y1="264" x2="460" y2="364"/>
+    <line x1="460" y1="264" x2="630" y2="364"/>
+    <line x1="460" y1="264" x2="800" y2="364"/>
+  </g>
+
+  <!-- Outer Arcade Bezel -->
+  <rect x="0" y="0" width="920" height="4" fill="url(#neon-strip)"/>
+  <rect x="0" y="360" width="920" height="4" fill="url(#neon-strip)"/>
+  <rect x="0" y="0" width="4" height="364" fill="#00f5ff"/>
+  <rect x="916" y="0" width="4" height="364" fill="#ff2a85"/>
+
+  <!-- Corner Brackets -->
+  <g shape-rendering="crispEdges">
+    <rect x="10" y="10" width="16" height="3" fill="#00f5ff"/>
+    <rect x="10" y="10" width="3" height="16" fill="#00f5ff"/>
+    <rect x="894" y="10" width="16" height="3" fill="#ff2a85"/>
+    <rect x="907" y="10" width="3" height="16" fill="#ff2a85"/>
+    <rect x="10" y="351" width="16" height="3" fill="#ffe600"/>
+    <rect x="10" y="338" width="3" height="16" fill="#ffe600"/>
+    <rect x="894" y="351" width="16" height="3" fill="#39ff14"/>
+    <rect x="907" y="338" width="3" height="16" fill="#39ff14"/>
+  </g>
+
+  <!-- Top Arcade Cabinet HUD -->
+  <rect x="24" y="18" width="872" height="32" rx="4" fill="#080b18" stroke="#25305c" stroke-width="1.5"/>
+  <text x="40" y="38" fill="#ff2a85" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="12" font-weight="700">1UP</text>
+  <text x="76" y="38" fill="#f1f5f9" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="12" font-weight="700">DEADCOW-GHW</text>
+
+  <text x="274" y="38" fill="#ffe600" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="12" font-weight="700">HIGH SCORE</text>
+  <text x="364" y="38" fill="#00f5ff" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="12" font-weight="700" filter="url(#glow-cyan)">999,990</text>
+
+  <text x="488" y="38" fill="#a855f7" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="12" font-weight="700">CREDIT</text>
+  <text x="546" y="38" fill="#e2e8f0" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="12" font-weight="700">09 // PRO-DEV</text>
+
+  <!-- Live Online Beacon -->
+  <circle cx="776" cy="34" r="4.5" fill="#39ff14" filter="url(#glow-cyan)">
+    <animate attributeName="opacity" values="1;0.25;1" dur="1.2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="790" y="38" fill="#39ff14" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="12" font-weight="700">SYS: ONLINE</text>
+
+  <!-- Left Main Command Console -->
+  <rect x="24" y="64" width="600" height="206" rx="6" fill="url(#panel-bg)" stroke="#23305e" stroke-width="1.5"/>
+  <rect x="24" y="64" width="600" height="4" fill="#00f5ff"/>
+  <rect x="24" y="64" width="4" height="206" fill="#00f5ff"/>
+
+  <!-- Terminal Prompt Bar -->
+  <rect x="44" y="82" width="290" height="22" rx="3" fill="#121833" stroke="#1e2b54" stroke-width="1"/>
+  <rect x="44" y="82" width="4" height="22" fill="#39ff14"/>
+  <text x="58" y="97" fill="#39ff14" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="11.5" font-weight="700">root@deadcow-ghw:~$ ./boot --arcade</text>
+
+  <!-- Neon Glitch Arcade Title -->
+  <text x="47" y="148" fill="#ff2a85" fill-opacity="0.58" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="33" font-weight="900" letter-spacing="1.5">HIPPOLYTE // GHW</text>
+  <text x="44" y="145" fill="url(#title-grad)" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="33" font-weight="900" letter-spacing="1.5" filter="url(#glow-cyan)">HIPPOLYTE // GHW</text>
+
+  <!-- Subtitle -->
+  <text x="44" y="176" fill="#ffe600" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="13.5" font-weight="700" letter-spacing="0.6">FULL-STACK ENGINEER  ×  ETHICAL PENTESTER  ×  INFRA</text>
+
+  <!-- Tech Domain Chips -->
+  <g font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="11" font-weight="700">
+    <rect x="44" y="194" width="124" height="24" rx="3" fill="#0d1e33" stroke="#00f5ff" stroke-width="1"/>
+    <text x="106" y="210" text-anchor="middle" fill="#00f5ff">TS / PYTHON / PHP</text>
+
+    <rect x="178" y="194" width="132" height="24" rx="3" fill="#241029" stroke="#ff2a85" stroke-width="1"/>
+    <text x="244" y="210" text-anchor="middle" fill="#ff2a85">PENTEST / OSINT</text>
+
+    <rect x="320" y="194" width="136" height="24" rx="3" fill="#0e261a" stroke="#39ff14" stroke-width="1"/>
+    <text x="388" y="210" text-anchor="middle" fill="#39ff14">LINUX / PROXMOX</text>
+
+    <rect x="466" y="194" width="136" height="24" rx="3" fill="#241f0c" stroke="#ffe600" stroke-width="1"/>
+    <text x="534" y="210" text-anchor="middle" fill="#ffe600">DEADCOW / CDC</text>
+  </g>
+
+  <!-- Arcade Prompt Footer Line -->
+  <text x="44" y="248" fill="#c084fc" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="12.5" font-weight="700">▶ INSERT COIN // BUILD · AUDIT · HARDEN · REPEAT</text>
+  <rect x="414" y="236" width="9" height="14" fill="#ffe600">
+    <animate attributeName="opacity" values="1;0;1" dur="0.75s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Right Hologram Bay (Cyber-Cow Mascot) -->
+  <rect x="640" y="64" width="256" height="206" rx="6" fill="url(#panel-bg)" stroke="#2b214d" stroke-width="1.5"/>
+  <rect x="640" y="64" width="256" height="4" fill="#ff2a85"/>
+  <rect x="892" y="64" width="4" height="206" fill="#ff2a85"/>
+
+  <text x="656" y="85" fill="#ff2a85" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="10.5" font-weight="700">AVATAR // DEADCOW.GHW</text>
+  <text x="836" y="85" fill="#ffe600" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="10.5" font-weight="700">LVL 99</text>
+
+  <!-- Subtle Radar Scan Sweep in Avatar Bay -->
+  <g clip-path="url(#avatar-clip)">
+    <rect x="644" y="60" width="248" height="36" fill="url(#radar-sweep)">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="0 200" dur="3.4s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Hovering Pixel Cyber-Cow Avatar -->
+  <g shape-rendering="crispEdges" transform="translate(692, 98)">
+    <animateTransform attributeName="transform" type="translate" values="692 98; 692 92; 692 98" dur="2.2s" repeatCount="indefinite"/>
+    <!-- Cyber Horns -->
+    <rect x="16" y="12" width="12" height="16" fill="#00f5ff"/>
+    <rect x="8" y="4" width="12" height="12" fill="#ffe600"/>
+    <rect x="124" y="12" width="12" height="16" fill="#00f5ff"/>
+    <rect x="132" y="4" width="12" height="12" fill="#ffe600"/>
+    <!-- Ears -->
+    <rect x="12" y="32" width="16" height="12" fill="#ff2a85"/>
+    <rect x="124" y="32" width="16" height="12" fill="#ff2a85"/>
+    <!-- Head Armor -->
+    <rect x="28" y="24" width="96" height="68" fill="#182042"/>
+    <rect x="36" y="16" width="80" height="12" fill="#232d59"/>
+    <rect x="36" y="92" width="80" height="14" fill="#121733"/>
+    <!-- Forehead Neural Core -->
+    <rect x="70" y="28" width="12" height="10" fill="#ff2a85">
+      <animate attributeName="fill" values="#ff2a85;#ffe600;#00f5ff;#39ff14;#ff2a85" dur="2.8s" repeatCount="indefinite"/>
+    </rect>
+    <!-- Cyber Visor -->
+    <rect x="34" y="44" width="84" height="20" fill="#060813"/>
+    <rect x="42" y="48" width="24" height="12" fill="#00f5ff" filter="url(#glow-cyan)">
+      <animate attributeName="fill" values="#00f5ff;#39ff14;#ff2a85;#ffe600;#00f5ff" dur="4s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="86" y="48" width="24" height="12" fill="#00f5ff" filter="url(#glow-cyan)">
+      <animate attributeName="fill" values="#00f5ff;#39ff14;#ff2a85;#ffe600;#00f5ff" dur="4s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="46" y="50" width="6" height="6" fill="#ffffff"/>
+    <rect x="90" y="50" width="6" height="6" fill="#ffffff"/>
+    <!-- Snout -->
+    <rect x="46" y="70" width="60" height="22" fill="#2e396b"/>
+    <rect x="56" y="76" width="8" height="8" fill="#060813"/>
+    <rect x="88" y="76" width="8" height="8" fill="#060813"/>
+    <!-- Collar & Tag -->
+    <rect x="24" y="106" width="104" height="20" fill="#182042"/>
+    <rect x="58" y="106" width="36" height="8" fill="#39ff14"/>
+  </g>
+
+  <!-- Segmented Arcade XP Bar -->
+  <text x="656" y="256" fill="#00f5ff" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="10.5" font-weight="700">XP</text>
+  <g shape-rendering="crispEdges">
+    <rect x="678" y="246" width="12" height="10" fill="#39ff14"/>
+    <rect x="694" y="246" width="12" height="10" fill="#39ff14"/>
+    <rect x="710" y="246" width="12" height="10" fill="#39ff14"/>
+    <rect x="726" y="246" width="12" height="10" fill="#00f5ff"/>
+    <rect x="742" y="246" width="12" height="10" fill="#00f5ff"/>
+    <rect x="758" y="246" width="12" height="10" fill="#00f5ff"/>
+    <rect x="774" y="246" width="12" height="10" fill="#a855f7"/>
+    <rect x="790" y="246" width="12" height="10" fill="#ff2a85"/>
+    <rect x="806" y="246" width="12" height="10" fill="#ffe600">
+      <animate attributeName="opacity" values="1;0.25;1" dur="0.9s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <text x="828" y="256" fill="#39ff14" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="10.5" font-weight="700">S-RANK</text>
+
+  <!-- Bottom Live Pac-Man Cyber Arena -->
+  <rect x="24" y="286" width="872" height="54" rx="4" fill="#060814"/>
+  <rect x="24" y="286" width="872" height="3.5" fill="#2563eb"/>
+  <rect x="24" y="291" width="872" height="1.5" fill="#00f5ff" fill-opacity="0.75"/>
+  <rect x="24" y="336.5" width="872" height="3.5" fill="#2563eb"/>
+  <rect x="24" y="333.5" width="872" height="1.5" fill="#00f5ff" fill-opacity="0.75"/>
+
+  <g clip-path="url(#maze-clip)" shape-rendering="crispEdges">
+    <!-- Data Pellets -->
+    <g fill="#ffe6a0" fill-opacity="0.88">
+      <rect x="52" y="310" width="6" height="6"/>
+      <rect x="88" y="310" width="6" height="6"/>
+      <rect x="124" y="310" width="6" height="6"/>
+      <rect x="160" y="310" width="6" height="6"/>
+      <rect x="196" y="310" width="6" height="6"/>
+      <rect x="232" y="310" width="6" height="6"/>
+      <rect x="268" y="310" width="6" height="6"/>
+      <rect x="304" y="310" width="6" height="6"/>
+      <rect x="340" y="310" width="6" height="6"/>
+      <rect x="376" y="310" width="6" height="6"/>
+      <rect x="412" y="310" width="6" height="6"/>
+      <!-- Pulsing Power Pellet -->
+      <rect x="448" y="306" width="14" height="14" fill="#ffe600" filter="url(#glow-gold)">
+        <animate attributeName="opacity" values="1;0.25;1" dur="0.55s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="488" y="310" width="6" height="6"/>
+      <rect x="524" y="310" width="6" height="6"/>
+      <rect x="560" y="310" width="6" height="6"/>
+      <rect x="596" y="310" width="6" height="6"/>
+      <rect x="632" y="310" width="6" height="6"/>
+      <rect x="668" y="310" width="6" height="6"/>
+      <rect x="704" y="310" width="6" height="6"/>
+      <rect x="740" y="310" width="6" height="6"/>
+      <rect x="776" y="310" width="6" height="6"/>
+      <rect x="812" y="310" width="6" height="6"/>
+      <rect x="848" y="310" width="6" height="6"/>
+    </g>
+
+    <!-- Animated Pac-Man + 4 Ghosts Chase -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" from="-260 0" to="980 0" dur="9.2s" repeatCount="indefinite"/>
+
+      <!-- Pixel Pac-Man -->
+      <g transform="translate(184, 299)">
+        <rect x="6" y="0" width="16" height="28" fill="#ffe600"/>
+        <rect x="2" y="4" width="24" height="20" fill="#ffe600"/>
+        <rect x="0" y="8" width="28" height="12" fill="#ffe600"/>
+        <rect x="12" y="4" width="4" height="4" fill="#060814"/>
+        <g fill="#060814">
+          <rect x="14" y="12" width="14" height="4"/>
+          <rect x="18" y="8" width="10" height="12"/>
+          <rect x="22" y="4" width="6" height="20"/>
+          <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="0.32s" repeatCount="indefinite"/>
+        </g>
+      </g>
+
+      <!-- Blinky -->
+      <g transform="translate(132, 299)">
+        <rect x="4" y="0" width="18" height="4" fill="#ff3b5c"/>
+        <rect x="0" y="4" width="26" height="20" fill="#ff3b5c"/>
+        <rect x="0" y="24" width="6" height="4" fill="#ff3b5c"/>
+        <rect x="10" y="24" width="6" height="4" fill="#ff3b5c"/>
+        <rect x="20" y="24" width="6" height="4" fill="#ff3b5c"/>
+        <rect x="6" y="8" width="6" height="8" fill="#ffffff"/>
+        <rect x="16" y="8" width="6" height="8" fill="#ffffff"/>
+        <rect x="9" y="10" width="3" height="4" fill="#1d4ed8"/>
+        <rect x="19" y="10" width="3" height="4" fill="#1d4ed8"/>
+      </g>
+
+      <!-- Pinky -->
+      <g transform="translate(92, 299)">
+        <rect x="4" y="0" width="18" height="4" fill="#ff2a85"/>
+        <rect x="0" y="4" width="26" height="20" fill="#ff2a85"/>
+        <rect x="0" y="24" width="6" height="4" fill="#ff2a85"/>
+        <rect x="10" y="24" width="6" height="4" fill="#ff2a85"/>
+        <rect x="20" y="24" width="6" height="4" fill="#ff2a85"/>
+        <rect x="6" y="8" width="6" height="8" fill="#ffffff"/>
+        <rect x="16" y="8" width="6" height="8" fill="#ffffff"/>
+        <rect x="9" y="10" width="3" height="4" fill="#1d4ed8"/>
+        <rect x="19" y="10" width="3" height="4" fill="#1d4ed8"/>
+      </g>
+
+      <!-- Inky -->
+      <g transform="translate(52, 299)">
+        <rect x="4" y="0" width="18" height="4" fill="#00f5ff"/>
+        <rect x="0" y="4" width="26" height="20" fill="#00f5ff"/>
+        <rect x="0" y="24" width="6" height="4" fill="#00f5ff"/>
+        <rect x="10" y="24" width="6" height="4" fill="#00f5ff"/>
+        <rect x="20" y="24" width="6" height="4" fill="#00f5ff"/>
+        <rect x="6" y="8" width="6" height="8" fill="#ffffff"/>
+        <rect x="16" y="8" width="6" height="8" fill="#ffffff"/>
+        <rect x="9" y="10" width="3" height="4" fill="#1d4ed8"/>
+        <rect x="19" y="10" width="3" height="4" fill="#1d4ed8"/>
+      </g>
+
+      <!-- Clyde -->
+      <g transform="translate(12, 299)">
+        <rect x="4" y="0" width="18" height="4" fill="#ff9f1c"/>
+        <rect x="0" y="4" width="26" height="20" fill="#ff9f1c"/>
+        <rect x="0" y="24" width="6" height="4" fill="#ff9f1c"/>
+        <rect x="10" y="24" width="6" height="4" fill="#ff9f1c"/>
+        <rect x="20" y="24" width="6" height="4" fill="#ff9f1c"/>
+        <rect x="6" y="8" width="6" height="8" fill="#ffffff"/>
+        <rect x="16" y="8" width="6" height="8" fill="#ffffff"/>
+        <rect x="9" y="10" width="3" height="4" fill="#1d4ed8"/>
+        <rect x="19" y="10" width="3" height="4" fill="#1d4ed8"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Subtle CRT Scanlines -->
+  <rect width="920" height="364" rx="10" fill="url(#crt-scan)" pointer-events="none"/>
+</svg>

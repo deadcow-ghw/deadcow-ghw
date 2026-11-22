@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 434" width="920" height="434" role="img" aria-label="Arcade Skill Matrix — Hippolyte / DEADCOW.GHW">
+  <defs>
+    <pattern id="crt-sk" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#000000" fill-opacity="0"/>
+      <rect y="2" width="4" height="2" fill="#000000" fill-opacity="0.18"/>
+    </pattern>
+    <linearGradient id="sk-top" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00f5ff"/>
+      <stop offset="50%" stop-color="#ff2a85"/>
+      <stop offset="100%" stop-color="#ffe600"/>
+    </linearGradient>
+    <linearGradient id="shimmer" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="bars-clip">
+      <rect x="668" y="64" width="212" height="352"/>
+    </clipPath>
+  </defs>
+
+  <!-- Outer Cabinet Panel -->
+  <rect width="920" height="434" rx="8" fill="#070914"/>
+  <rect x="4" y="4" width="912" height="426" rx="6" fill="#0d1124"/>
+  <rect x="0" y="0" width="920" height="4" fill="url(#sk-top)"/>
+  <rect x="0" y="430" width="920" height="4" fill="url(#sk-top)"/>
+
+  <!-- Header Strip -->
+  <rect x="20" y="18" width="880" height="34" rx="4" fill="#080b18" stroke="#24305c" stroke-width="1.2"/>
+  <rect x="20" y="18" width="4" height="34" fill="#ffe600"/>
+  <text x="38" y="39" fill="#ffe600" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="13.5" font-weight="700">★ ARCADE SKILL MATRIX // ENGINEERING &amp; OFFSEC ARSENAL</text>
+  <text x="746" y="39" fill="#39ff14" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="11.5" font-weight="700">STATUS: UNLOCKED</text>
+
+  <!-- ROW 1: LANGUAGES & SCRIPTING -->
+  <rect x="20" y="66" width="880" height="62" rx="4" fill="#11162e" stroke="#1e2a54" stroke-width="1"/>
+  <rect x="20" y="66" width="4" height="62" fill="#00f5ff"/>
+  <text x="38" y="89" fill="#00f5ff" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="13" font-weight="700">01 // LANGUAGES &amp; SCRIPTING</text>
+  <text x="38" y="112" fill="#cbd5e1" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="11">TypeScript · JavaScript · Python · PHP · PowerShell · Bash/Shell · SQL · HTML5 · CSS3</text>
+  <text x="668" y="87" fill="#94a3b8" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="10" font-weight="700">TIER</text>
+  <text x="878" y="87" text-anchor="end" fill="#00f5ff" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="11" font-weight="700">S-RANK</text>
+  <g shape-rendering="crispEdges" transform="translate(668, 96)">
+    <rect x="0" y="0" width="18" height="14" fill="#00f5ff"/>
+    <rect x="21" y="0" width="18" height="14" fill="#00f5ff"/>
+    <rect x="42" y="0" width="18" height="14" fill="#00f5ff"/>
+    <rect x="63" y="0" width="18" height="14" fill="#00f5ff"/>
+    <rect x="84" y="0" width="18" height="14" fill="#00f5ff"/>
+    <rect x="105" y="0" width="18" height="14" fill="#00f5ff"/>
+    <rect x="126" y="0" width="18" height="14" fill="#00f5ff"/>
+    <rect x="147" y="0" width="18" height="14" fill="#00f5ff"/>
+    <rect x="168" y="0" width="18" height="14" fill="#00f5ff"/>
+    <rect x="189" y="0" width="18" height="14" fill="#00f5ff" fill-opacity="0.25"/>
+  </g>
+
+  <!-- ROW 2: FRAMEWORKS & RUNTIME -->
+  <rect x="20" y="138" width="880" height="62" rx="4" fill="#11162e" stroke="#1e2a54" stroke-width="1"/>
+  <rect x="20" y="138" width="4" height="62" fill="#39ff14"/>
+  <text x="38" y="161" fill="#39ff14" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="13" font-weight="700">02 // FRAMEWORKS &amp; RUNTIME</text>
+  <text x="38" y="184" fill="#cbd5e1" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="11">Node.js · Express · Astro · Vue.js · Vite · Electron · Tailwind CSS · Better Auth</text>
+  <text x="668" y="159" fill="#94a3b8" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="10" font-weight="700">TIER</text>
+  <text x="878" y="159" text-anchor="end" fill="#39ff14" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="11" font-weight="700">S-RANK</text>
+  <g shape-rendering="crispEdges" transform="translate(668, 168)">
+    <rect x="0" y="0" width="18" height="14" fill="#39ff14"/>
+    <rect x="21" y="0" width="18" height="14" fill="#39ff14"/>
+    <rect x="42" y="0" width="18" height="14" fill="#39ff14"/>
+    <rect x="63" y="0" width="18" height="14" fill="#39ff14"/>
+    <rect x="84" y="0" width="18" height="14" fill="#39ff14"/>
+    <rect x="105" y="0" width="18" height="14" fill="#39ff14"/>
+    <rect x="126" y="0" width="18" height="14" fill="#39ff14"/>
+    <rect x="147" y="0" width="18" height="14" fill="#39ff14"/>
+    <rect x="168" y="0" width="18" height="14" fill="#39ff14"/>
+    <rect x="189" y="0" width="18" height="14" fill="#39ff14" fill-opacity="0.25"/>
+  </g>
+
+  <!-- ROW 3: OFFSEC, PENTEST & OSINT -->
+  <rect x="20" y="210" width="880" height="62" rx="4" fill="#18122b" stroke="#361f4d" stroke-width="1"/>
+  <rect x="20" y="210" width="4" height="62" fill="#ff2a85"/>
+  <text x="38" y="233" fill="#ff2a85" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="13" font-weight="700">03 // CYBERSECURITY, PENTEST &amp; OSINT</text>
+  <text x="38" y="256" fill="#cbd5e1" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="11">Web/API Pentest · OWASP Top 10 · OSINT/CSINT · Burp Suite · Nmap · Wireshark · Tor/E2EE</text>
+  <text x="668" y="231" fill="#94a3b8" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="10" font-weight="700">TIER</text>
+  <text x="878" y="231" text-anchor="end" fill="#ff2a85" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="11" font-weight="700">A+ CORE</text>
+  <g shape-rendering="crispEdges" transform="translate(668, 240)">
+    <rect x="0" y="0" width="18" height="14" fill="#ff2a85"/>
+    <rect x="21" y="0" width="18" height="14" fill="#ff2a85"/>
+    <rect x="42" y="0" width="18" height="14" fill="#ff2a85"/>
+    <rect x="63" y="0" width="18" height="14" fill="#ff2a85"/>
+    <rect x="84" y="0" width="18" height="14" fill="#ff2a85"/>
+    <rect x="105" y="0" width="18" height="14" fill="#ff2a85"/>
+    <rect x="126" y="0" width="18" height="14" fill="#ff2a85"/>
+    <rect x="147" y="0" width="18" height="14" fill="#ff2a85"/>
+    <rect x="168" y="0" width="18" height="14" fill="#ff2a85"/>
+    <rect x="189" y="0" width="18" height="14" fill="#ff2a85" fill-opacity="0.25"/>
+  </g>
+
+  <!-- ROW 4: INFRASTRUCTURE & SELF-HOSTING -->
+  <rect x="20" y="282" width="880" height="62" rx="4" fill="#11162e" stroke="#1e2a54" stroke-width="1"/>
+  <rect x="20" y="282" width="4" height="62" fill="#a855f7"/>
+  <text x="38" y="305" fill="#c084fc" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="13" font-weight="700">04 // INFRASTRUCTURE &amp; SELF-HOSTING</text>
+  <text x="38" y="328" fill="#cbd5e1" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="11">Linux Hardening · Docker · Proxmox VE · Nginx · Apache · Cloudflare · Pterodactyl · Git</text>
+  <text x="668" y="303" fill="#94a3b8" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="10" font-weight="700">TIER</text>
+  <text x="878" y="303" text-anchor="end" fill="#c084fc" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="11" font-weight="700">S-RANK</text>
+  <g shape-rendering="crispEdges" transform="translate(668, 312)">
+    <rect x="0" y="0" width="18" height="14" fill="#a855f7"/>
+    <rect x="21" y="0" width="18" height="14" fill="#a855f7"/>
+    <rect x="42" y="0" width="18" height="14" fill="#a855f7"/>
+    <rect x="63" y="0" width="18" height="14" fill="#a855f7"/>
+    <rect x="84" y="0" width="18" height="14" fill="#a855f7"/>
+    <rect x="105" y="0" width="18" height="14" fill="#a855f7"/>
+    <rect x="126" y="0" width="18" height="14" fill="#a855f7"/>
+    <rect x="147" y="0" width="18" height="14" fill="#a855f7"/>
+    <rect x="168" y="0" width="18" height="14" fill="#a855f7"/>
+    <rect x="189" y="0" width="18" height="14" fill="#a855f7" fill-opacity="0.25"/>
+  </g>
+
+  <!-- ROW 5: DATABASES & CACHING -->
+  <rect x="20" y="354" width="880" height="62" rx="4" fill="#11162e" stroke="#1e2a54" stroke-width="1"/>
+  <rect x="20" y="354" width="4" height="62" fill="#ffe600"/>
+  <text x="38" y="377" fill="#ffe600" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="13" font-weight="700">05 // DATABASES &amp; HIGH-SPEED CACHE</text>
+  <text x="38" y="400" fill="#cbd5e1" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="11">MySQL · SQLite · Redis · Query Indexing · Anti-SQLi &amp; Rate Limiting</text>
+  <text x="668" y="375" fill="#94a3b8" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="10" font-weight="700">TIER</text>
+  <text x="878" y="375" text-anchor="end" fill="#ffe600" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="11" font-weight="700">A+ CORE</text>
+  <g shape-rendering="crispEdges" transform="translate(668, 384)">
+    <rect x="0" y="0" width="18" height="14" fill="#ffe600"/>
+    <rect x="21" y="0" width="18" height="14" fill="#ffe600"/>
+    <rect x="42" y="0" width="18" height="14" fill="#ffe600"/>
+    <rect x="63" y="0" width="18" height="14" fill="#ffe600"/>
+    <rect x="84" y="0" width="18" height="14" fill="#ffe600"/>
+    <rect x="105" y="0" width="18" height="14" fill="#ffe600"/>
+    <rect x="126" y="0" width="18" height="14" fill="#ffe600"/>
+    <rect x="147" y="0" width="18" height="14" fill="#ffe600"/>
+    <rect x="168" y="0" width="18" height="14" fill="#ffe600" fill-opacity="0.25"/>
+    <rect x="189" y="0" width="18" height="14" fill="#ffe600" fill-opacity="0.25"/>
+  </g>
+
+  <!-- Crisp Light Sweep Shimmer Across All LED Power Gauges -->
+  <g clip-path="url(#bars-clip)">
+    <rect x="600" y="64" width="60" height="352" fill="url(#shimmer)">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="310 0" dur="3.6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <rect width="920" height="434" rx="8" fill="url(#crt-sk)" pointer-events="none"/>
+</svg>

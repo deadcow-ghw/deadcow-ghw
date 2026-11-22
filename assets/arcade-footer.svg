@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 116" width="920" height="116" role="img" aria-label="EOF — Hippolyte / deadcow-ghw Arcade Cyber Footer">
+  <defs>
+    <linearGradient id="foot-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#070914"/>
+      <stop offset="100%" stop-color="#110d24"/>
+    </linearGradient>
+    <pattern id="crt-foot" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#000000" fill-opacity="0"/>
+      <rect y="2" width="4" height="2" fill="#000000" fill-opacity="0.2"/>
+    </pattern>
+  </defs>
+
+  <rect width="920" height="116" rx="8" fill="url(#foot-bg)"/>
+
+  <!-- Top Arcade Neon Strip -->
+  <g shape-rendering="crispEdges">
+    <rect x="0" y="0" width="184" height="4" fill="#00f5ff"/>
+    <rect x="184" y="0" width="184" height="4" fill="#a855f7"/>
+    <rect x="368" y="0" width="184" height="4" fill="#ff2a85"/>
+    <rect x="552" y="0" width="184" height="4" fill="#ffe600"/>
+    <rect x="736" y="0" width="184" height="4" fill="#39ff14"/>
+  </g>
+
+  <!-- Pixel Cyber Skyline Silhouette + Lit Neon Windows -->
+  <g shape-rendering="crispEdges">
+    <g fill="#121733">
+      <rect x="0" y="76" width="76" height="40"/>
+      <rect x="84" y="62" width="60" height="54"/>
+      <rect x="152" y="80" width="92" height="36"/>
+      <rect x="252" y="68" width="72" height="48"/>
+      <rect x="332" y="84" width="112" height="32"/>
+      <rect x="452" y="66" width="88" height="50"/>
+      <rect x="548" y="80" width="96" height="36"/>
+      <rect x="652" y="60" width="72" height="56"/>
+      <rect x="732" y="74" width="188" height="42"/>
+    </g>
+    <!-- Lit Pixel Windows -->
+    <rect x="14" y="86" width="6" height="6" fill="#00f5ff" fill-opacity="0.6"/>
+    <rect x="30" y="96" width="6" height="6" fill="#ffe600" fill-opacity="0.6"/>
+    <rect x="98" y="74" width="6" height="6" fill="#ff2a85" fill-opacity="0.65"/>
+    <rect x="114" y="86" width="6" height="6" fill="#00f5ff" fill-opacity="0.6"/>
+    <rect x="270" y="80" width="6" height="6" fill="#39ff14" fill-opacity="0.6"/>
+    <rect x="290" y="92" width="6" height="6" fill="#ffe600" fill-opacity="0.6"/>
+    <rect x="470" y="78" width="6" height="6" fill="#a855f7" fill-opacity="0.7"/>
+    <rect x="494" y="90" width="6" height="6" fill="#00f5ff" fill-opacity="0.6"/>
+    <rect x="668" y="72" width="6" height="6" fill="#ff2a85" fill-opacity="0.65"/>
+    <rect x="692" y="84" width="6" height="6" fill="#ffe600" fill-opacity="0.65"/>
+    <rect x="760" y="88" width="6" height="6" fill="#39ff14" fill-opacity="0.6"/>
+    <rect x="820" y="92" width="6" height="6" fill="#00f5ff" fill-opacity="0.6"/>
+    <rect x="874" y="86" width="6" height="6" fill="#ff2a85" fill-opacity="0.6"/>
+  </g>
+
+  <!-- Gliding Cyber Packet Runner -->
+  <g shape-rendering="crispEdges">
+    <rect x="-44" y="13" width="26" height="4" fill="#00f5ff"/>
+    <rect x="-18" y="13" width="10" height="4" fill="#ffe600"/>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="980 0" dur="3.6s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- Center Arcade Signoff -->
+  <text x="460" y="45" text-anchor="middle" fill="#ffe600" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="14" font-weight="700">▶ CONTINUE? [ YES ]  //  deadcow-ghw · Hippolyte · DEADCOW.GHW</text>
+  <text x="460" y="67" text-anchor="middle" fill="#00f5ff" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="11.5" font-weight="700">BUILD · AUDIT · HARDEN · REPEAT  —  CDCLEAK &amp; hippolytedev.ru</text>
+
+  <!-- Blinking Arcade Coin LEDs -->
+  <g shape-rendering="crispEdges">
+    <rect x="26" y="36" width="10" height="10" fill="#39ff14">
+      <animate attributeName="opacity" values="1;0.2;1" dur="1.1s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="884" y="36" width="10" height="10" fill="#ff2a85">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="1.1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <rect width="920" height="116" rx="8" fill="url(#crt-foot)" pointer-events="none"/>
+</svg>

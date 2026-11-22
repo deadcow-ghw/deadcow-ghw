@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 318" width="920" height="318" role="img" aria-label="Select Cartridge — Flagship Projects Showcase">
+  <defs>
+    <pattern id="crt-cart" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#000000" fill-opacity="0"/>
+      <rect y="2" width="4" height="2" fill="#000000" fill-opacity="0.18"/>
+    </pattern>
+    <linearGradient id="cart-bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00f5ff"/>
+      <stop offset="33%" stop-color="#ff2a85"/>
+      <stop offset="66%" stop-color="#ffe600"/>
+      <stop offset="100%" stop-color="#39ff14"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Rack -->
+  <rect width="920" height="318" rx="8" fill="#070914"/>
+  <rect x="4" y="4" width="912" height="310" rx="6" fill="#0d1124"/>
+  <rect x="0" y="0" width="920" height="4" fill="url(#cart-bar)"/>
+  <rect x="0" y="314" width="920" height="4" fill="url(#cart-bar)"/>
+
+  <!-- Header -->
+  <rect x="20" y="18" width="880" height="32" rx="4" fill="#080b18" stroke="#24305c" stroke-width="1.2"/>
+  <rect x="20" y="18" width="4" height="32" fill="#00f5ff"/>
+  <text x="38" y="38" fill="#00f5ff" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="13" font-weight="700">▶ SELECT CARTRIDGE // FLAGSHIP SYSTEMS &amp; OPEN-SOURCE</text>
+  <text x="748" y="38" fill="#ffe600" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="11" font-weight="700">[ 4 SLOTS LOADED ]</text>
+
+  <!-- SLOT 01: DEADCOW-APP -->
+  <g transform="translate(20, 64)">
+    <rect width="432" height="112" rx="5" fill="#10162f" stroke="#1f315e" stroke-width="1.2"/>
+    <rect width="432" height="4" fill="#00f5ff"/>
+    <!-- Cartridge Grip Notches -->
+    <rect x="14" y="12" width="24" height="3" fill="#1e2d57"/>
+    <rect x="14" y="18" width="24" height="3" fill="#1e2d57"/>
+    <text x="48" y="23" fill="#00f5ff" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="10.5" font-weight="700">SLOT 01 // HARDWARE &amp; RF AUDIT</text>
+    <circle cx="412" cy="19" r="4" fill="#00f5ff">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="16" y="48" fill="#f8fafc" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="15.5" font-weight="900">DEADCOW-APP</text>
+    <text x="16" y="69" fill="#cbd5e1" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="11">Android RF · IR-Storm · BLE · NFC &amp; P2P toolkit</text>
+    <text x="16" y="85" fill="#94a3b8" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="10.5">Flipper-inspired field pentest suite — rootless APK</text>
+    <!-- Tech Pills -->
+    <rect x="16" y="93" width="66" height="14" rx="2" fill="#081c2e"/>
+    <text x="49" y="103" text-anchor="middle" fill="#00f5ff" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="9.5" font-weight="700">ANDROID</text>
+    <rect x="88" y="93" width="84" height="14" rx="2" fill="#081c2e"/>
+    <text x="130" y="103" text-anchor="middle" fill="#00f5ff" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="9.5" font-weight="700">RF / IR / BLE</text>
+    <rect x="178" y="93" width="56" height="14" rx="2" fill="#081c2e"/>
+    <text x="206" y="103" text-anchor="middle" fill="#39ff14" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="9.5" font-weight="700">GPLv3</text>
+  </g>
+
+  <!-- SLOT 02: DEADCORD -->
+  <g transform="translate(468, 64)">
+    <rect width="432" height="112" rx="5" fill="#17112b" stroke="#3d1f54" stroke-width="1.2"/>
+    <rect width="432" height="4" fill="#ff2a85"/>
+    <rect x="14" y="12" width="24" height="3" fill="#3a204d"/>
+    <rect x="14" y="18" width="24" height="3" fill="#3a204d"/>
+    <text x="48" y="23" fill="#ff2a85" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="10.5" font-weight="700">SLOT 02 // OPSEC &amp; PRIVACY CLIENT</text>
+    <circle cx="412" cy="19" r="4" fill="#ff2a85">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="16" y="48" fill="#f8fafc" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="15.5" font-weight="900">DEADCORD</text>
+    <text x="16" y="69" fill="#cbd5e1" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="11">Hardened sovereign Discord client w/ Vencord</text>
+    <text x="16" y="85" fill="#94a3b8" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="10.5">Tor Fail-Closed by default · Multi-account · E2EE AES-256</text>
+    <rect x="16" y="93" width="76" height="14" rx="2" fill="#240f26"/>
+    <text x="54" y="103" text-anchor="middle" fill="#ff2a85" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="9.5" font-weight="700">ELECTRON</text>
+    <rect x="98" y="93" width="84" height="14" rx="2" fill="#240f26"/>
+    <text x="140" y="103" text-anchor="middle" fill="#c084fc" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="9.5" font-weight="700">TOR + AES-256</text>
+    <rect x="188" y="93" width="66" height="14" rx="2" fill="#240f26"/>
+    <text x="221" y="103" text-anchor="middle" fill="#39ff14" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="9.5" font-weight="700">VENCORD</text>
+  </g>
+
+  <!-- SLOT 03: DEADCOW-STORE -->
+  <g transform="translate(20, 190)">
+    <rect width="432" height="112" rx="5" fill="#171626" stroke="#423b1c" stroke-width="1.2"/>
+    <rect width="432" height="4" fill="#ffe600"/>
+    <rect x="14" y="12" width="24" height="3" fill="#3d371a"/>
+    <rect x="14" y="18" width="24" height="3" fill="#3d371a"/>
+    <text x="48" y="23" fill="#ffe600" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="10.5" font-weight="700">SLOT 03 // PACKAGE DISTRIBUTION</text>
+    <circle cx="412" cy="19" r="4" fill="#ffe600">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2.0s" repeatCount="indefinite"/>
+    </circle>
+    <text x="16" y="48" fill="#f8fafc" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="15.5" font-weight="900">DEADCOW-STORE</text>
+    <text x="16" y="69" fill="#cbd5e1" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="11">Signed SHA-256 package portal &amp; app manager</text>
+    <text x="16" y="85" fill="#94a3b8" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="10.5">Unified distribution hub for Android &amp; Desktop apps</text>
+    <rect x="16" y="93" width="84" height="14" rx="2" fill="#24200c"/>
+    <text x="58" y="103" text-anchor="middle" fill="#ffe600" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="9.5" font-weight="700">TYPESCRIPT</text>
+    <rect x="106" y="93" width="66" height="14" rx="2" fill="#24200c"/>
+    <text x="139" y="103" text-anchor="middle" fill="#ffe600" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="9.5" font-weight="700">SHA-256</text>
+    <rect x="178" y="93" width="88" height="14" rx="2" fill="#24200c"/>
+    <text x="222" y="103" text-anchor="middle" fill="#00f5ff" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="9.5" font-weight="700">CROSS-PLAT</text>
+  </g>
+
+  <!-- SLOT 04: CDC ECOSYSTEM -->
+  <g transform="translate(468, 190)">
+    <rect width="432" height="112" rx="5" fill="#0e1b22" stroke="#1b4534" stroke-width="1.2"/>
+    <rect width="432" height="4" fill="#39ff14"/>
+    <rect x="14" y="12" width="24" height="3" fill="#1b402f"/>
+    <rect x="14" y="18" width="24" height="3" fill="#1b402f"/>
+    <text x="48" y="23" fill="#39ff14" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="10.5" font-weight="700">SLOT 04 // CYBER PLATFORMS &amp; LABS</text>
+    <circle cx="412" cy="19" r="4" fill="#39ff14">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.0s" repeatCount="indefinite"/>
+    </circle>
+    <text x="16" y="48" fill="#f8fafc" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="15.5" font-weight="900">CDC LEARN &amp; CDC MAIL</text>
+    <text x="16" y="69" fill="#cbd5e1" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="11">260 cyber/dev courses + Docker CTF labs</text>
+    <text x="16" y="85" fill="#94a3b8" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="10.5">Anonymous anti-spam PGP webmail — zero-tracker RGPD</text>
+    <rect x="16" y="93" width="84" height="14" rx="2" fill="#0b2416"/>
+    <text x="58" y="103" text-anchor="middle" fill="#39ff14" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="9.5" font-weight="700">DOCKER CTF</text>
+    <rect x="106" y="93" width="76" height="14" rx="2" fill="#0b2416"/>
+    <text x="144" y="103" text-anchor="middle" fill="#00f5ff" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="9.5" font-weight="700">PGP / RGPD</text>
+    <rect x="188" y="93" width="86" height="14" rx="2" fill="#0b2416"/>
+    <text x="231" y="103" text-anchor="middle" fill="#c084fc" font-family="'JetBrains Mono', ui-monospace, Consolas, monospace" font-size="9.5" font-weight="700">CDCLEAK.LOL</text>
+  </g>
+
+  <rect width="920" height="318" rx="8" fill="url(#crt-cart)" pointer-events="none"/>
+</svg>
